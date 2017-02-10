@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/genesis/html/inventario/resources/views/consulta/buscar.blade.php</file>
+            <file>file:/home/genesis/html/inventario/resources/views/egreso/index.blade.php</file>
+            <file>file:/home/genesis/html/inventario/app/Http/Controllers/EgresoController.php</file>
+            <file>file:/home/genesis/html/inventario/composer.json</file>
+            <file>file:/home/genesis/html/inventario/app/Http/Controllers/ConsultaController.php</file>
+            <file>file:/home/genesis/html/inventario/resources/views/consulta/pdf.php</file>
+            <file>file:/home/genesis/html/inventario/app/Http/routes.php</file>
+            <file>file:/home/genesis/html/inventario/config/app.php</file>
+            <file>file:/home/genesis/html/inventario/app/Http/Controllers/IngresoController.php</file>
+            <file>file:/home/genesis/html/inventario/config/filesystems.php</file>
+            <file>file:/home/genesis/html/inventario/resources/views/consulta/index.blade.php</file>
+        </group>
+    </open-files>
+</project-private>
