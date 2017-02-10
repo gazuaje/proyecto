@@ -1,5 +1,5 @@
 <?php
- @include('/fpdf.php');
+ @include('../../../public/fpdf181/fpdf.php');
  
 $pdf=new FPDF();
 $pdf->AddPage();

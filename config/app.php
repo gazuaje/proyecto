@@ -159,7 +159,8 @@ return [
         Amranidev\Ajaxis\AjaxisServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
         Vinkla\Pusher\PusherServiceProvider::class,
-        Codedge\Fpdf\FpdfServiceProvider::class, //
+        Anouar\Fpdf\FpdfServiceProvider::class,
+       
     ],
 
     /*
@@ -205,7 +206,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        ' fPDf ' => Codedge \ fPDf \ Fachadas \ fPDf :: clase , // [2]  
+        'Fpdf'    => Anouar\Fpdf\Facades\Fpdf::class,
+        
         
 
     ],

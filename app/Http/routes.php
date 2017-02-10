@@ -20,15 +20,8 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
-Route::get('pdf', function(){
-    $fpdf = new Fpdf();
-        $fpdf->AddPage();
-        $fpdf->SetFont('Arial','B',16);
-        $fpdf->Cell(40,10,'Hello World!');
-        $fpdf->Output();
-        exit;
+Route::get('pdf', 'ConsultaController@exportpdf'); 
 
-});
 
 
 //articulo Routes

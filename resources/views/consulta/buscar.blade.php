@@ -6,7 +6,7 @@
 
 <div class = 'container'>
     <h1>
-        Consulta<a href = '#modal1' class = 'fa-' data-link = "" ><h4> <i class="fa fa-file-pdf-o" style="color: red" aria-hidden="true"></i></h4></a>
+        Consulta<a href = '{{url('/pdf')}}' class = 'fa-' data-link = "" ><h4> <i class="fa fa-file-pdf-o" style="color: red" aria-hidden="true"></i></h4></a>
     </h1>
     
     <table> <label><h4 style="color:black">Ingresos</h4> </label>

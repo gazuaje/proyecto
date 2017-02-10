@@ -59,10 +59,19 @@ class ConsultaController extends Controller
       //return view('consulta.buscar',compact('users'));
        return view('consulta.buscar', ['users' => $users,'users2' => $users2 ]);
           }
-          public function pdf(Request $request) {
+          public function exportpdf() {
+                          
+               Fpdf::AddPage();
+                Fpdf::SetFont('Arial','B',16);
+                Fpdf::Cell(40,10,'Hello World!');
+                   Fpdf::AddPage();
+                Fpdf::Output();
+                exit;
+
+              } 
+
               
-              
-          }
+          
      
     
     
